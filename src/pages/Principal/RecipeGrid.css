@@ -1,0 +1,41 @@
+.recipe-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.recipe-container div{
+    width: 30%;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: rgb(230, 90, 90);
+    padding: 0.5rem;
+}
+
+.recipe-container div img{
+    max-width: 100%;
+}
+
+.recipe-container div img,
+.recipe-container div h2, 
+.recipe-container div p{
+    margin-bottom: 0.5rem;
+}
+
+.recipe-container div a{
+    border: 2px solid #0000;
+}
+
+.recipe-container div a:hover{
+    background-color: transparent;
+    color:#f7d354;
+    border: 2px solid #f7d354;
+    
+}

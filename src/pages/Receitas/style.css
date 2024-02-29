@@ -1,0 +1,61 @@
+
+
+.receita{
+    border-radius: 10px;
+    
+    margin:15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #ffffff;
+    align-items: center;
+    min-width: 40%;
+    padding: 20px 16px;
+}
+.receita svg{
+    font-size: 1.5rem;
+
+}
+
+.ing-img{
+    margin-left:50px ;
+    display: flex;
+    justify-content: space-between;
+}
+.informacao{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+    margin-top: 0.3rem;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+    width: 30vw;
+}
+.informacao h3{
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+    margin-right: 1.3rem;
+
+}
+
+
+.lista-ing{
+    display: flex;
+    flex-direction: column;
+    margin-top: -2vh;
+    margin-left:8.5vw ;
+}
+
+.step_step{
+    margin-top: 1.5rem;
+    display: inline-block;
+}
+
+.lista-steps{
+    display: flex;
+    flex-direction: column;
+    margin-top: -2.3vh;
+    margin-left: 6.1vw;
+    line-height: 1.4rem;
+}
